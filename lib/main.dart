@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
           size: 50.0,
         ),*/
         title: Text(
-          'Goldo Saintos',
+          'Goldo Sainto',
           style: TextStyle(
             fontFamily: 'ChakraPetch',
             fontWeight: FontWeight.bold,
