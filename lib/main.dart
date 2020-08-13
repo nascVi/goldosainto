@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:goldosainto/screens/wrapper.dart';
 
-void main() => runApp(MaterialApp(
-      home: Home(),
-    ));
+void main() => runApp(GoldoSainto());
+      // home: Home(),
 
-class Home extends StatelessWidget {
+class GoldoSainto extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MaterialApp(
+      home: Wrapper(),
+    );
+  }
+}
+
+/*    return Scaffold(
       appBar: AppBar(
         /*child: Icon(
           Icons.menu,
@@ -75,3 +81,4 @@ class Home extends StatelessWidget {
     );
   }
 }
+*/

@@ -1,5 +1,5 @@
-name: myapp
-description: A new Flutter application.
+name: goldosainto
+description: The Gold saints of the legend are making us admire the might of creativity through mangaka art work. This space is dedicated to the passionate faithfull who witness such achievment.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -23,6 +23,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  firebase_auth: ^0.16.1
+  # check for firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.13.7
+  # check for cloud_firestore: ^0.12.9+4
 
 dev_dependencies:
   flutter_test:

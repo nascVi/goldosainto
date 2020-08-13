@@ -1,4 +1,4 @@
-package uk.co.thenetninja.myapp;
+package com.goldosaintos.lpchamps;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

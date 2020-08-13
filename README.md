@@ -1,6 +1,7 @@
-# myapp
+# Goldo Sainto
 
-A new Flutter application.
+The Gold saints of the legend are making us admire the might of creativity through 
+mangaka art work. This space is dedicated to the passionate faithfull who witness such achievment.
 
 ## Getting Started
 
