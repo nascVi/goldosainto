@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:goldosainto/screens/wrapper.dart';
+import 'package:goldosainto/services/auth.dart';
+import 'package:provider/provider.dart';
+import 'package:goldosainto/models/user.dart';
 
 void main() => runApp(GoldoSainto());
       // home: Home(),
@@ -7,8 +10,11 @@ void main() => runApp(GoldoSainto());
 class GoldoSainto extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Wrapper(),
+    return StreamProvider<User>.value(
+      value: AuthService().user,
+      child: MaterialApp(
+        home: Wrapper(),
+      ),
     );
   }
 }

@@ -27,6 +27,8 @@ dependencies:
   # check for firebase_auth: ^0.14.0+5
   cloud_firestore: ^0.13.7
   # check for cloud_firestore: ^0.12.9+4
+  provider: ^4.3.2
+
 
 dev_dependencies:
   flutter_test:
